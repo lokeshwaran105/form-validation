@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./form.js"></script>
+</head>
+<body>
+    <div class="form">
+        <h1>Register</h1>
+        <form method="post" onsubmit="return validateForm()">
+            <label for="fname"> Enter First Name
+                <input type="text" name="fname" id="fname">
+            </label>
+            <label for="lname"> Enter Last Name
+                <input type="text" name="lname" id="lname">
+            </label>
+            <label for="phone"> Enter Phone number
+                <input type="text" name="phone" id="phone">
+            </label>
+            <label for="city"> Enter City
+                <input type="text" name="city" id="city">
+            </label>
+            <label for="addr"> Enter Address
+                <textarea name="addr" id="addr"></textarea>
+            </label>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
